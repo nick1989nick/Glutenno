@@ -1,0 +1,6 @@
+framework module Pods_Glutenno_GlutennoUITests {
+  umbrella header "Pods-Glutenno-GlutennoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

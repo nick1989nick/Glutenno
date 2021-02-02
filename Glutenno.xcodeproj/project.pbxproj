@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17038D5B25C9370C00A2F114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D5A25C9370C00A2F114 /* AppDelegate.swift */; };
+		17038D5D25C9370C00A2F114 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D5C25C9370C00A2F114 /* SceneDelegate.swift */; };
+		17038D5F25C9370C00A2F114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D5E25C9370C00A2F114 /* ViewController.swift */; };
+		17038D6225C9370C00A2F114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17038D6025C9370C00A2F114 /* Main.storyboard */; };
+		17038D6525C9370C00A2F114 /* Glutenno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17038D6325C9370C00A2F114 /* Glutenno.xcdatamodeld */; };
+		17038D6725C9370D00A2F114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17038D6625C9370D00A2F114 /* Assets.xcassets */; };
+		17038D6A25C9370D00A2F114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17038D6825C9370D00A2F114 /* LaunchScreen.storyboard */; };
+		17038D7525C9370E00A2F114 /* GlutennoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D7425C9370E00A2F114 /* GlutennoTests.swift */; };
+		17038D8025C9370E00A2F114 /* GlutennoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D7F25C9370E00A2F114 /* GlutennoUITests.swift */; };
+		2303EDF2CF32508B5CA16EA6 /* Pods_Glutenno_GlutennoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A75B1CEB3609BB76BACF48 /* Pods_Glutenno_GlutennoUITests.framework */; };
+		AE56EC49B4F57DB990A97927 /* Pods_GlutennoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCE6D6D4FE1E0781C9B7D8A /* Pods_GlutennoTests.framework */; };
+		CC43884FA0C7CFC0739E67CC /* Pods_Glutenno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691F1170AFBDE14EE06121C1 /* Pods_Glutenno.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17038D7125C9370E00A2F114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17038D4F25C9370C00A2F114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17038D5625C9370C00A2F114;
+			remoteInfo = Glutenno;
+		};
+		17038D7C25C9370E00A2F114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17038D4F25C9370C00A2F114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17038D5625C9370C00A2F114;
+			remoteInfo = Glutenno;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17038D5725C9370C00A2F114 /* Glutenno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glutenno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17038D5A25C9370C00A2F114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17038D5C25C9370C00A2F114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17038D5E25C9370C00A2F114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17038D6125C9370C00A2F114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17038D6425C9370C00A2F114 /* Glutenno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Glutenno.xcdatamodel; sourceTree = "<group>"; };
+		17038D6625C9370D00A2F114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17038D6925C9370D00A2F114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17038D6B25C9370D00A2F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17038D7025C9370E00A2F114 /* GlutennoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutennoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17038D7425C9370E00A2F114 /* GlutennoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutennoTests.swift; sourceTree = "<group>"; };
+		17038D7625C9370E00A2F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17038D7B25C9370E00A2F114 /* GlutennoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutennoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17038D7F25C9370E00A2F114 /* GlutennoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutennoUITests.swift; sourceTree = "<group>"; };
+		17038D8125C9370E00A2F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976E1CF63B3EC223F6A9F02 /* Pods-GlutennoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlutennoTests.debug.xcconfig"; path = "Target Support Files/Pods-GlutennoTests/Pods-GlutennoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D3CAE03BCEBF0A3C2406B7F /* Pods-Glutenno-GlutennoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutenno-GlutennoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Glutenno-GlutennoUITests/Pods-Glutenno-GlutennoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		432351A0344CC178A5849DAD /* Pods-Glutenno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutenno.release.xcconfig"; path = "Target Support Files/Pods-Glutenno/Pods-Glutenno.release.xcconfig"; sourceTree = "<group>"; };
+		56268F92DA654CEDB701611D /* Pods-GlutennoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlutennoTests.release.xcconfig"; path = "Target Support Files/Pods-GlutennoTests/Pods-GlutennoTests.release.xcconfig"; sourceTree = "<group>"; };
+		691F1170AFBDE14EE06121C1 /* Pods_Glutenno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Glutenno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCE6D6D4FE1E0781C9B7D8A /* Pods_GlutennoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlutennoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A75B1CEB3609BB76BACF48 /* Pods_Glutenno_GlutennoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Glutenno_GlutennoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D299E2C9F423C6BCBFDC8A97 /* Pods-Glutenno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutenno.debug.xcconfig"; path = "Target Support Files/Pods-Glutenno/Pods-Glutenno.debug.xcconfig"; sourceTree = "<group>"; };
+		D396E417A0B72A911EB5D67A /* Pods-Glutenno-GlutennoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutenno-GlutennoUITests.release.xcconfig"; path = "Target Support Files/Pods-Glutenno-GlutennoUITests/Pods-Glutenno-GlutennoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17038D5425C9370C00A2F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC43884FA0C7CFC0739E67CC /* Pods_Glutenno.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17038D6D25C9370E00A2F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE56EC49B4F57DB990A97927 /* Pods_GlutennoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17038D7825C9370E00A2F114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2303EDF2CF32508B5CA16EA6 /* Pods_Glutenno_GlutennoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17038D4E25C9370C00A2F114 = {
+			isa = PBXGroup;
+			children = (
+				17038D5925C9370C00A2F114 /* Glutenno */,
+				17038D7325C9370E00A2F114 /* GlutennoTests */,
+				17038D7E25C9370E00A2F114 /* GlutennoUITests */,
+				17038D5825C9370C00A2F114 /* Products */,
+				2C28CC607221F94E8CEFE619 /* Pods */,
+				D60C310E29598469DD906322 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17038D5825C9370C00A2F114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17038D5725C9370C00A2F114 /* Glutenno.app */,
+				17038D7025C9370E00A2F114 /* GlutennoTests.xctest */,
+				17038D7B25C9370E00A2F114 /* GlutennoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17038D5925C9370C00A2F114 /* Glutenno */ = {
+			isa = PBXGroup;
+			children = (
+				17038D9125C9376100A2F114 /* Data */,
+				17038D9025C9375B00A2F114 /* UI */,
+				17038D5A25C9370C00A2F114 /* AppDelegate.swift */,
+				17038D5C25C9370C00A2F114 /* SceneDelegate.swift */,
+				17038D5E25C9370C00A2F114 /* ViewController.swift */,
+				17038D6025C9370C00A2F114 /* Main.storyboard */,
+				17038D6625C9370D00A2F114 /* Assets.xcassets */,
+				17038D6825C9370D00A2F114 /* LaunchScreen.storyboard */,
+				17038D6B25C9370D00A2F114 /* Info.plist */,
+				17038D6325C9370C00A2F114 /* Glutenno.xcdatamodeld */,
+			);
+			path = Glutenno;
+			sourceTree = "<group>";
+		};
+		17038D7325C9370E00A2F114 /* GlutennoTests */ = {
+			isa = PBXGroup;
+			children = (
+				17038D7425C9370E00A2F114 /* GlutennoTests.swift */,
+				17038D7625C9370E00A2F114 /* Info.plist */,
+			);
+			path = GlutennoTests;
+			sourceTree = "<group>";
+		};
+		17038D7E25C9370E00A2F114 /* GlutennoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17038D7F25C9370E00A2F114 /* GlutennoUITests.swift */,
+				17038D8125C9370E00A2F114 /* Info.plist */,
+			);
+			path = GlutennoUITests;
+			sourceTree = "<group>";
+		};
+		17038D9025C9375B00A2F114 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		17038D9125C9376100A2F114 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2C28CC607221F94E8CEFE619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D299E2C9F423C6BCBFDC8A97 /* Pods-Glutenno.debug.xcconfig */,
+				432351A0344CC178A5849DAD /* Pods-Glutenno.release.xcconfig */,
+				3D3CAE03BCEBF0A3C2406B7F /* Pods-Glutenno-GlutennoUITests.debug.xcconfig */,
+				D396E417A0B72A911EB5D67A /* Pods-Glutenno-GlutennoUITests.release.xcconfig */,
+				2976E1CF63B3EC223F6A9F02 /* Pods-GlutennoTests.debug.xcconfig */,
+				56268F92DA654CEDB701611D /* Pods-GlutennoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D60C310E29598469DD906322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				691F1170AFBDE14EE06121C1 /* Pods_Glutenno.framework */,
+				99A75B1CEB3609BB76BACF48 /* Pods_Glutenno_GlutennoUITests.framework */,
+				6FCE6D6D4FE1E0781C9B7D8A /* Pods_GlutennoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17038D5625C9370C00A2F114 /* Glutenno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17038D8425C9370E00A2F114 /* Build configuration list for PBXNativeTarget "Glutenno" */;
+			buildPhases = (
+				194D8395A3F5C968B2376FAA /* [CP] Check Pods Manifest.lock */,
+				17038D5325C9370C00A2F114 /* Sources */,
+				17038D5425C9370C00A2F114 /* Frameworks */,
+				17038D5525C9370C00A2F114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glutenno;
+			productName = Glutenno;
+			productReference = 17038D5725C9370C00A2F114 /* Glutenno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17038D6F25C9370E00A2F114 /* GlutennoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17038D8725C9370E00A2F114 /* Build configuration list for PBXNativeTarget "GlutennoTests" */;
+			buildPhases = (
+				325157607101A637A393BC56 /* [CP] Check Pods Manifest.lock */,
+				17038D6C25C9370E00A2F114 /* Sources */,
+				17038D6D25C9370E00A2F114 /* Frameworks */,
+				17038D6E25C9370E00A2F114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17038D7225C9370E00A2F114 /* PBXTargetDependency */,
+			);
+			name = GlutennoTests;
+			productName = GlutennoTests;
+			productReference = 17038D7025C9370E00A2F114 /* GlutennoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17038D7A25C9370E00A2F114 /* GlutennoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17038D8A25C9370E00A2F114 /* Build configuration list for PBXNativeTarget "GlutennoUITests" */;
+			buildPhases = (
+				7F0F0E9A3F077F65DB6EFDDE /* [CP] Check Pods Manifest.lock */,
+				17038D7725C9370E00A2F114 /* Sources */,
+				17038D7825C9370E00A2F114 /* Frameworks */,
+				17038D7925C9370E00A2F114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17038D7D25C9370E00A2F114 /* PBXTargetDependency */,
+			);
+			name = GlutennoUITests;
+			productName = GlutennoUITests;
+			productReference = 17038D7B25C9370E00A2F114 /* GlutennoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17038D4F25C9370C00A2F114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					17038D5625C9370C00A2F114 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					17038D6F25C9370E00A2F114 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 17038D5625C9370C00A2F114;
+					};
+					17038D7A25C9370E00A2F114 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 17038D5625C9370C00A2F114;
+					};
+				};
+			};
+			buildConfigurationList = 17038D5225C9370C00A2F114 /* Build configuration list for PBXProject "Glutenno" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17038D4E25C9370C00A2F114;
+			productRefGroup = 17038D5825C9370C00A2F114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17038D5625C9370C00A2F114 /* Glutenno */,
+				17038D6F25C9370E00A2F114 /* GlutennoTests */,
+				17038D7A25C9370E00A2F114 /* GlutennoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17038D5525C9370C00A2F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17038D6A25C9370D00A2F114 /* LaunchScreen.storyboard in Resources */,
+				17038D6725C9370D00A2F114 /* Assets.xcassets in Resources */,
+				17038D6225C9370C00A2F114 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17038D6E25C9370E00A2F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17038D7925C9370E00A2F114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		194D8395A3F5C968B2376FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Glutenno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		325157607101A637A393BC56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlutennoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0F0E9A3F077F65DB6EFDDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Glutenno-GlutennoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17038D5325C9370C00A2F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17038D5F25C9370C00A2F114 /* ViewController.swift in Sources */,
+				17038D6525C9370C00A2F114 /* Glutenno.xcdatamodeld in Sources */,
+				17038D5B25C9370C00A2F114 /* AppDelegate.swift in Sources */,
+				17038D5D25C9370C00A2F114 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17038D6C25C9370E00A2F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17038D7525C9370E00A2F114 /* GlutennoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17038D7725C9370E00A2F114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17038D8025C9370E00A2F114 /* GlutennoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17038D7225C9370E00A2F114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17038D5625C9370C00A2F114 /* Glutenno */;
+			targetProxy = 17038D7125C9370E00A2F114 /* PBXContainerItemProxy */;
+		};
+		17038D7D25C9370E00A2F114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17038D5625C9370C00A2F114 /* Glutenno */;
+			targetProxy = 17038D7C25C9370E00A2F114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17038D6025C9370C00A2F114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17038D6125C9370C00A2F114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17038D6825C9370D00A2F114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17038D6925C9370D00A2F114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17038D8225C9370E00A2F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17038D8325C9370E00A2F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17038D8525C9370E00A2F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D299E2C9F423C6BCBFDC8A97 /* Pods-Glutenno.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Glutenno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.njurkovic.Glutenno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17038D8625C9370E00A2F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432351A0344CC178A5849DAD /* Pods-Glutenno.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Glutenno/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.njurkovic.Glutenno;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17038D8825C9370E00A2F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2976E1CF63B3EC223F6A9F02 /* Pods-GlutennoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlutennoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.njurkovic.GlutennoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glutenno.app/Glutenno";
+			};
+			name = Debug;
+		};
+		17038D8925C9370E00A2F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56268F92DA654CEDB701611D /* Pods-GlutennoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlutennoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.njurkovic.GlutennoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glutenno.app/Glutenno";
+			};
+			name = Release;
+		};
+		17038D8B25C9370E00A2F114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3CAE03BCEBF0A3C2406B7F /* Pods-Glutenno-GlutennoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlutennoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.njurkovic.GlutennoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glutenno;
+			};
+			name = Debug;
+		};
+		17038D8C25C9370E00A2F114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D396E417A0B72A911EB5D67A /* Pods-Glutenno-GlutennoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GlutennoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.njurkovic.GlutennoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glutenno;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17038D5225C9370C00A2F114 /* Build configuration list for PBXProject "Glutenno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17038D8225C9370E00A2F114 /* Debug */,
+				17038D8325C9370E00A2F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17038D8425C9370E00A2F114 /* Build configuration list for PBXNativeTarget "Glutenno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17038D8525C9370E00A2F114 /* Debug */,
+				17038D8625C9370E00A2F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17038D8725C9370E00A2F114 /* Build configuration list for PBXNativeTarget "GlutennoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17038D8825C9370E00A2F114 /* Debug */,
+				17038D8925C9370E00A2F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17038D8A25C9370E00A2F114 /* Build configuration list for PBXNativeTarget "GlutennoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17038D8B25C9370E00A2F114 /* Debug */,
+				17038D8C25C9370E00A2F114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17038D6325C9370C00A2F114 /* Glutenno.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17038D6425C9370C00A2F114 /* Glutenno.xcdatamodel */,
+			);
+			currentVersion = 17038D6425C9370C00A2F114 /* Glutenno.xcdatamodel */;
+			path = Glutenno.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17038D4F25C9370C00A2F114 /* Project object */;
+}
