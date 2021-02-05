@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		17038D5B25C9370C00A2F114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D5A25C9370C00A2F114 /* AppDelegate.swift */; };
 		17038D5D25C9370C00A2F114 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D5C25C9370C00A2F114 /* SceneDelegate.swift */; };
-		17038D5F25C9370C00A2F114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D5E25C9370C00A2F114 /* ViewController.swift */; };
 		17038D6225C9370C00A2F114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17038D6025C9370C00A2F114 /* Main.storyboard */; };
 		17038D6525C9370C00A2F114 /* Glutenno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17038D6325C9370C00A2F114 /* Glutenno.xcdatamodeld */; };
 		17038D6725C9370D00A2F114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17038D6625C9370D00A2F114 /* Assets.xcassets */; };
 		17038D6A25C9370D00A2F114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17038D6825C9370D00A2F114 /* LaunchScreen.storyboard */; };
 		17038D7525C9370E00A2F114 /* GlutennoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D7425C9370E00A2F114 /* GlutennoTests.swift */; };
 		17038D8025C9370E00A2F114 /* GlutennoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038D7F25C9370E00A2F114 /* GlutennoUITests.swift */; };
+		17038DCC25C9438900A2F114 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038DCB25C9438900A2F114 /* ApiService.swift */; };
+		17038DD225C961C300A2F114 /* GlutennoTokenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038DD125C961C300A2F114 /* GlutennoTokenAdapter.swift */; };
+		17038DD825C9629200A2F114 /* SecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038DD725C9629200A2F114 /* SecureStorage.swift */; };
+		17038DE925C9644000A2F114 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17038DE825C9644000A2F114 /* NetworkError.swift */; };
+		171B8F5D25CD2E420074B671 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F5C25CD2E420074B671 /* Category.swift */; };
+		171B8F6225CD30B50074B671 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F6125CD30B50074B671 /* Ingredient.swift */; };
+		171B8F6725CD30C10074B671 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F6625CD30C10074B671 /* Step.swift */; };
+		171B8F7025CD32E60074B671 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F6F25CD32E60074B671 /* Router.swift */; };
+		171B8F8725CD3A850074B671 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F8625CD3A850074B671 /* RecipesViewModel.swift */; };
+		171B8F9125CD569A0074B671 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F9025CD569A0074B671 /* UIImageView+Download.swift */; };
+		1755FCEF25CD8A91005447FD /* CollectionViewCell+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755FCEE25CD8A91005447FD /* CollectionViewCell+Shadow.swift */; };
+		17783A1025C96D3F00B89525 /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A0F25C96D3F00B89525 /* ApiConfiguration.swift */; };
+		17783A1625CAD58800B89525 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A1525CAD58800B89525 /* BaseViewController.swift */; };
+		17783A1E25CAD5FD00B89525 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A1D25CAD5FD00B89525 /* ViewModel.swift */; };
+		17783A2325CAD65B00B89525 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A2225CAD65B00B89525 /* Coordinator.swift */; };
+		17783A2925CADA5100B89525 /* DescripitonDiseaseViewCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A2825CADA5100B89525 /* DescripitonDiseaseViewCOntroller.swift */; };
+		17783A3225CAE4BC00B89525 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A3125CAE4BC00B89525 /* RecipesViewController.swift */; };
+		17783A3725CAE54500B89525 /* CategoryRecipesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A3625CAE54500B89525 /* CategoryRecipesCell.swift */; };
+		17783A3C25CAE55A00B89525 /* SearchRecipesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A3B25CAE55A00B89525 /* SearchRecipesCell.swift */; };
+		17783A4125CAE7FF00B89525 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A4025CAE7FF00B89525 /* Recipes.swift */; };
 		2303EDF2CF32508B5CA16EA6 /* Pods_Glutenno_GlutennoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A75B1CEB3609BB76BACF48 /* Pods_Glutenno_GlutennoUITests.framework */; };
 		AE56EC49B4F57DB990A97927 /* Pods_GlutennoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCE6D6D4FE1E0781C9B7D8A /* Pods_GlutennoTests.framework */; };
 		CC43884FA0C7CFC0739E67CC /* Pods_Glutenno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691F1170AFBDE14EE06121C1 /* Pods_Glutenno.framework */; };
@@ -42,7 +61,6 @@
 		17038D5725C9370C00A2F114 /* Glutenno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glutenno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17038D5A25C9370C00A2F114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17038D5C25C9370C00A2F114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17038D5E25C9370C00A2F114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17038D6125C9370C00A2F114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17038D6425C9370C00A2F114 /* Glutenno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Glutenno.xcdatamodel; sourceTree = "<group>"; };
 		17038D6625C9370D00A2F114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +72,26 @@
 		17038D7B25C9370E00A2F114 /* GlutennoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutennoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17038D7F25C9370E00A2F114 /* GlutennoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutennoUITests.swift; sourceTree = "<group>"; };
 		17038D8125C9370E00A2F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17038DCB25C9438900A2F114 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		17038DD125C961C300A2F114 /* GlutennoTokenAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutennoTokenAdapter.swift; sourceTree = "<group>"; };
+		17038DD725C9629200A2F114 /* SecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorage.swift; sourceTree = "<group>"; };
+		17038DE825C9644000A2F114 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		171B8F5C25CD2E420074B671 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		171B8F6125CD30B50074B671 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		171B8F6625CD30C10074B671 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		171B8F6F25CD32E60074B671 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		171B8F8625CD3A850074B671 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+		171B8F9025CD569A0074B671 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		1755FCEE25CD8A91005447FD /* CollectionViewCell+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewCell+Shadow.swift"; sourceTree = "<group>"; };
+		17783A0F25C96D3F00B89525 /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
+		17783A1525CAD58800B89525 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		17783A1D25CAD5FD00B89525 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		17783A2225CAD65B00B89525 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		17783A2825CADA5100B89525 /* DescripitonDiseaseViewCOntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescripitonDiseaseViewCOntroller.swift; sourceTree = "<group>"; };
+		17783A3125CAE4BC00B89525 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		17783A3625CAE54500B89525 /* CategoryRecipesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRecipesCell.swift; sourceTree = "<group>"; };
+		17783A3B25CAE55A00B89525 /* SearchRecipesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRecipesCell.swift; sourceTree = "<group>"; };
+		17783A4025CAE7FF00B89525 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 		2976E1CF63B3EC223F6A9F02 /* Pods-GlutennoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlutennoTests.debug.xcconfig"; path = "Target Support Files/Pods-GlutennoTests/Pods-GlutennoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D3CAE03BCEBF0A3C2406B7F /* Pods-Glutenno-GlutennoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutenno-GlutennoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Glutenno-GlutennoUITests/Pods-Glutenno-GlutennoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		432351A0344CC178A5849DAD /* Pods-Glutenno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glutenno.release.xcconfig"; path = "Target Support Files/Pods-Glutenno/Pods-Glutenno.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,11 +156,11 @@
 		17038D5925C9370C00A2F114 /* Glutenno */ = {
 			isa = PBXGroup;
 			children = (
+				171B8F8E25CD566E0074B671 /* Shared */,
 				17038D9125C9376100A2F114 /* Data */,
 				17038D9025C9375B00A2F114 /* UI */,
 				17038D5A25C9370C00A2F114 /* AppDelegate.swift */,
 				17038D5C25C9370C00A2F114 /* SceneDelegate.swift */,
-				17038D5E25C9370C00A2F114 /* ViewController.swift */,
 				17038D6025C9370C00A2F114 /* Main.storyboard */,
 				17038D6625C9370D00A2F114 /* Assets.xcassets */,
 				17038D6825C9370D00A2F114 /* LaunchScreen.storyboard */,
@@ -153,6 +191,9 @@
 		17038D9025C9375B00A2F114 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				17783A3025CAE49200B89525 /* Recipes */,
+				17783A2725CADA2C00B89525 /* DescriptionDisease */,
+				17783A1425CAD57300B89525 /* Base */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -160,8 +201,104 @@
 		17038D9125C9376100A2F114 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				17038DC925C9436A00A2F114 /* Networking */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		17038DC925C9436A00A2F114 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				17038DCB25C9438900A2F114 /* ApiService.swift */,
+				17783A0F25C96D3F00B89525 /* ApiConfiguration.swift */,
+				171B8F6E25CD32B50074B671 /* Routers */,
+				17038DD625C9626700A2F114 /* Storage */,
+				17038DD025C961A100A2F114 /* Adapters */,
+				17038DCA25C9437800A2F114 /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		17038DCA25C9437800A2F114 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17038DE825C9644000A2F114 /* NetworkError.swift */,
+				17783A4025CAE7FF00B89525 /* Recipes.swift */,
+				171B8F5C25CD2E420074B671 /* Category.swift */,
+				171B8F6125CD30B50074B671 /* Ingredient.swift */,
+				171B8F6625CD30C10074B671 /* Step.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17038DD025C961A100A2F114 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				17038DD125C961C300A2F114 /* GlutennoTokenAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		17038DD625C9626700A2F114 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				17038DD725C9629200A2F114 /* SecureStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		171B8F6E25CD32B50074B671 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				171B8F6F25CD32E60074B671 /* Router.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		171B8F8E25CD566E0074B671 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				171B8F8F25CD56750074B671 /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		171B8F8F25CD56750074B671 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				171B8F9025CD569A0074B671 /* UIImageView+Download.swift */,
+				1755FCEE25CD8A91005447FD /* CollectionViewCell+Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17783A1425CAD57300B89525 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				17783A1525CAD58800B89525 /* BaseViewController.swift */,
+				17783A1D25CAD5FD00B89525 /* ViewModel.swift */,
+				17783A2225CAD65B00B89525 /* Coordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		17783A2725CADA2C00B89525 /* DescriptionDisease */ = {
+			isa = PBXGroup;
+			children = (
+				17783A2825CADA5100B89525 /* DescripitonDiseaseViewCOntroller.swift */,
+			);
+			path = DescriptionDisease;
+			sourceTree = "<group>";
+		};
+		17783A3025CAE49200B89525 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				17783A3125CAE4BC00B89525 /* RecipesViewController.swift */,
+				171B8F8625CD3A850074B671 /* RecipesViewModel.swift */,
+				17783A3625CAE54500B89525 /* CategoryRecipesCell.swift */,
+				17783A3B25CAE55A00B89525 /* SearchRecipesCell.swift */,
+			);
+			path = Recipes;
 			sourceTree = "<group>";
 		};
 		2C28CC607221F94E8CEFE619 /* Pods */ = {
@@ -174,7 +311,6 @@
 				2976E1CF63B3EC223F6A9F02 /* Pods-GlutennoTests.debug.xcconfig */,
 				56268F92DA654CEDB701611D /* Pods-GlutennoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -199,6 +335,7 @@
 				17038D5325C9370C00A2F114 /* Sources */,
 				17038D5425C9370C00A2F114 /* Frameworks */,
 				17038D5525C9370C00A2F114 /* Resources */,
+				EDDB17F93A4D5E44734185B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +373,7 @@
 				17038D7725C9370E00A2F114 /* Sources */,
 				17038D7825C9370E00A2F114 /* Frameworks */,
 				17038D7925C9370E00A2F114 /* Resources */,
+				B67A710B4FC4AEC68E3A5771 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -383,6 +521,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B67A710B4FC4AEC68E3A5771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glutenno-GlutennoUITests/Pods-Glutenno-GlutennoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glutenno-GlutennoUITests/Pods-Glutenno-GlutennoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Glutenno-GlutennoUITests/Pods-Glutenno-GlutennoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDDB17F93A4D5E44734185B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glutenno/Pods-Glutenno-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glutenno/Pods-Glutenno-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Glutenno/Pods-Glutenno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -390,10 +562,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17038D5F25C9370C00A2F114 /* ViewController.swift in Sources */,
+				171B8F6725CD30C10074B671 /* Step.swift in Sources */,
+				17038DE925C9644000A2F114 /* NetworkError.swift in Sources */,
+				17783A3725CAE54500B89525 /* CategoryRecipesCell.swift in Sources */,
+				17783A1025C96D3F00B89525 /* ApiConfiguration.swift in Sources */,
+				17783A4125CAE7FF00B89525 /* Recipes.swift in Sources */,
+				17783A1E25CAD5FD00B89525 /* ViewModel.swift in Sources */,
+				17038DD225C961C300A2F114 /* GlutennoTokenAdapter.swift in Sources */,
+				17038DD825C9629200A2F114 /* SecureStorage.swift in Sources */,
+				17783A2925CADA5100B89525 /* DescripitonDiseaseViewCOntroller.swift in Sources */,
+				17783A1625CAD58800B89525 /* BaseViewController.swift in Sources */,
+				17783A3C25CAE55A00B89525 /* SearchRecipesCell.swift in Sources */,
+				171B8F6225CD30B50074B671 /* Ingredient.swift in Sources */,
+				171B8F8725CD3A850074B671 /* RecipesViewModel.swift in Sources */,
+				1755FCEF25CD8A91005447FD /* CollectionViewCell+Shadow.swift in Sources */,
+				17038DCC25C9438900A2F114 /* ApiService.swift in Sources */,
+				171B8F5D25CD2E420074B671 /* Category.swift in Sources */,
+				17783A2325CAD65B00B89525 /* Coordinator.swift in Sources */,
 				17038D6525C9370C00A2F114 /* Glutenno.xcdatamodeld in Sources */,
 				17038D5B25C9370C00A2F114 /* AppDelegate.swift in Sources */,
+				17783A3225CAE4BC00B89525 /* RecipesViewController.swift in Sources */,
+				171B8F7025CD32E60074B671 /* Router.swift in Sources */,
 				17038D5D25C9370C00A2F114 /* SceneDelegate.swift in Sources */,
+				171B8F9125CD569A0074B671 /* UIImageView+Download.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
