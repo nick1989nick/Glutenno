@@ -15,12 +15,18 @@ protocol RecipesView {
     func showError(message: String)
 }
 
-class RecipiesViewController: BaseViewController, RecipesView {
-  
+class RecipiesViewController: SearchViewController, RecipesView, SearchFilterProtocol {
+   
     @IBOutlet var tableView: UITableView!
     
     var items = [Category]()
     var recipes: [Category: [Recipe]] = [:] {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+    var filtered = [Recipe]()
+    var showSearchList: Bool = false {
         didSet {
             tableView.reloadData()
         }
@@ -35,7 +41,8 @@ class RecipiesViewController: BaseViewController, RecipesView {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
-        
+        searchFilterProtocol = self
+          
         viewModel?.getData()
     }
     
@@ -50,8 +57,24 @@ class RecipiesViewController: BaseViewController, RecipesView {
     func showError(message: String) {
         
     }
+    
+    func filterContentForSearchText(_ text: String) {
+        filtered = []
+        if text.isEmpty {
+            filtered = []
+            showSearchList = false
+        } else {
+            for (_, recipes) in recipes {
+                for recipe in recipes {
+                    if recipe.name.lowercased().contains(text.lowercased())  {
+                        filtered.append(recipe)
+                    }
+                }
+            }
+            showSearchList = true
+        }
+    }
 
-   
 }
 
 extension RecipiesViewController: UITableViewDelegate {
@@ -60,15 +83,29 @@ extension RecipiesViewController: UITableViewDelegate {
 
 extension RecipiesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+        if showSearchList == true {
+            return filtered.count
+        } else {
+            return items.count
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryRecipesCell") as! CategoryRecipesCell
-        let item = items[indexPath.row]
-        cell.categoryName.text = item.name
-        cell.items = recipes[item] ?? []
-        return cell
+
+        if showSearchList == true {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "SearchRecipesCell") as! SearchRecipesCell
+            let filter = filtered[indexPath.row]
+            cell.name.text = filter.name
+            cell.mainImage.downloaded(from: filter.image)
+            cell.timeLabel.text = filter.duration
+            return cell
+        } else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryRecipesCell") as! CategoryRecipesCell
+            let item = items[indexPath.row]
+            cell.categoryName.text = item.name
+            cell.items = recipes[item] ?? []
+            return cell
+        }
     }
 
 }

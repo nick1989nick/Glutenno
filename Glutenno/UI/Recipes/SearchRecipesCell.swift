@@ -12,6 +12,5 @@ class SearchRecipesCell: UITableViewCell {
     @IBOutlet var mainImage: UIImageView!
     @IBOutlet var name: UILabel!
     @IBOutlet var timeLabel: UILabel!
-    
 }
 

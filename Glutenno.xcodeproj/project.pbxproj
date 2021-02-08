@@ -26,6 +26,7 @@
 		171B8F8725CD3A850074B671 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F8625CD3A850074B671 /* RecipesViewModel.swift */; };
 		171B8F9125CD569A0074B671 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F9025CD569A0074B671 /* UIImageView+Download.swift */; };
 		1755FCEF25CD8A91005447FD /* CollectionViewCell+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755FCEE25CD8A91005447FD /* CollectionViewCell+Shadow.swift */; };
+		1755FD0125D12124005447FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755FD0025D12124005447FD /* SearchViewController.swift */; };
 		17783A1025C96D3F00B89525 /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A0F25C96D3F00B89525 /* ApiConfiguration.swift */; };
 		17783A1625CAD58800B89525 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A1525CAD58800B89525 /* BaseViewController.swift */; };
 		17783A1E25CAD5FD00B89525 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17783A1D25CAD5FD00B89525 /* ViewModel.swift */; };
@@ -83,6 +84,7 @@
 		171B8F8625CD3A850074B671 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 		171B8F9025CD569A0074B671 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		1755FCEE25CD8A91005447FD /* CollectionViewCell+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewCell+Shadow.swift"; sourceTree = "<group>"; };
+		1755FD0025D12124005447FD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		17783A0F25C96D3F00B89525 /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
 		17783A1525CAD58800B89525 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		17783A1D25CAD5FD00B89525 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 		17038D9025C9375B00A2F114 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1755FCFF25D1210D005447FD /* Search */,
 				17783A3025CAE49200B89525 /* Recipes */,
 				17783A2725CADA2C00B89525 /* DescriptionDisease */,
 				17783A1425CAD57300B89525 /* Base */,
@@ -270,6 +273,14 @@
 				1755FCEE25CD8A91005447FD /* CollectionViewCell+Shadow.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1755FCFF25D1210D005447FD /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1755FD0025D12124005447FD /* SearchViewController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		17783A1425CAD57300B89525 /* Base */ = {
@@ -580,6 +591,7 @@
 				171B8F5D25CD2E420074B671 /* Category.swift in Sources */,
 				17783A2325CAD65B00B89525 /* Coordinator.swift in Sources */,
 				17038D6525C9370C00A2F114 /* Glutenno.xcdatamodeld in Sources */,
+				1755FD0125D12124005447FD /* SearchViewController.swift in Sources */,
 				17038D5B25C9370C00A2F114 /* AppDelegate.swift in Sources */,
 				17783A3225CAE4BC00B89525 /* RecipesViewController.swift in Sources */,
 				171B8F7025CD32E60074B671 /* Router.swift in Sources */,
