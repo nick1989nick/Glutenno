@@ -9,8 +9,9 @@ import Foundation
 import UIKit
 import RxSwift
 
-protocol RecipesViewModelDelegate {
+protocol RecipesViewModelDelegate: ViewModelDelegate {
     func getData()
+    func showRecipe(recipe: Recipe)
 }
 
 
@@ -18,10 +19,12 @@ class RecipesViewModel: ViewModel, RecipesViewModelDelegate {
  
     let apiService: ApiService
     let recipesView: RecipesView
+    let coordinator: RecipeCoordinator
     
-    init(apiService: ApiService, recipesView: RecipesView) {
+    init(apiService: ApiService, recipesView: RecipesView, coordinator: RecipeCoordinator) {
         self.apiService = apiService
         self.recipesView = recipesView
+        self.coordinator = coordinator
     }
     
     func getData() {
@@ -55,6 +58,10 @@ class RecipesViewModel: ViewModel, RecipesViewModelDelegate {
                     self.recipesView.showError(message: "There was an error, please try later.")
                 }
             }.disposed(by: disposeBag)
+    }
+    
+    func showRecipe(recipe: Recipe) {
+        coordinator.navigateToRecipeDetailsViewController(recipe: recipe)
     }
 
 }

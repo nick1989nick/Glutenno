@@ -12,6 +12,7 @@ target 'Glutenno' do
   pod 'RxCocoa', '6.0.0'
   pod 'JGProgressHUD', '~> 2.2'
   pod 'KeychainSwift', '~> 19.0'
+  pod 'lottie-ios'
   
 
   target 'GlutennoTests' do

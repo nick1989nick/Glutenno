@@ -2,6 +2,7 @@ PODS:
   - Alamofire (5.4.1)
   - JGProgressHUD (2.2)
   - KeychainSwift (19.0.0)
+  - lottie-ios (3.2.0)
   - RxCocoa (6.0.0):
     - RxRelay (= 6.0.0)
     - RxSwift (= 6.0.0)
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - Alamofire (~> 5.2)
   - JGProgressHUD (~> 2.2)
   - KeychainSwift (~> 19.0)
+  - lottie-ios
   - RxCocoa (= 6.0.0)
   - RxSwift (= 6.0.0)
 
@@ -21,6 +23,7 @@ SPEC REPOS:
     - Alamofire
     - JGProgressHUD
     - KeychainSwift
+    - lottie-ios
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -29,10 +32,11 @@ SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
   KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  lottie-ios: b6b911246246a90a1d25e7388afe6d9ef003d293
   RxCocoa: 3f79328fafa3645b34600f37c31e64c73ae3a80e
   RxRelay: 8d593be109c06ea850df027351beba614b012ffb
   RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
 
-PODFILE CHECKSUM: 9816989d2c1f8c24478a774d7a93e8848b135675
+PODFILE CHECKSUM: 42bf4ea129beb5a1a39cb40c0b7ffab34ec5ec26
 
 COCOAPODS: 1.10.0

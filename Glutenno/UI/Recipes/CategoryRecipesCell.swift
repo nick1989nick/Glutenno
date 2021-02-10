@@ -13,7 +13,9 @@ class CategoryRecipesCell: UITableViewCell {
     @IBOutlet var categoryName: UILabel!
     @IBOutlet var collectionView: UICollectionView!
     @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
-  
+    
+    var navigateToDetails: (_ recipe: Recipe) -> Void = {_ in }
+    
     var items = [Recipe]() {
         didSet {
             collectionView.reloadData()
@@ -48,8 +50,10 @@ extension CategoryRecipesCell: UICollectionViewDelegateFlowLayout {
 
 extension CategoryRecipesCell: UICollectionViewDelegate {
     
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let recipe = items[indexPath.row]
+        navigateToDetails(recipe)
     }
 }
 
