@@ -36,7 +36,7 @@ class RecipiesViewController: SearchViewController, RecipesView, SearchFilterPro
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewModel = RecipesViewModel(apiService: apiService, recipesView: self)
+        viewModel = RecipesViewModel(apiService: apiService, recipesView: self, coordinator: RecipeCoordinator(viewController: self))
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -55,7 +55,9 @@ class RecipiesViewController: SearchViewController, RecipesView, SearchFilterPro
     }
     
     func showError(message: String) {
-        
+        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     func filterContentForSearchText(_ text: String) {
@@ -78,7 +80,12 @@ class RecipiesViewController: SearchViewController, RecipesView, SearchFilterPro
 }
 
 extension RecipiesViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if showSearchList == true {
+            let filter = filtered[indexPath.row]
+            viewModel?.showRecipe(recipe: filter)
+        }
+    }
 }
 
 extension RecipiesViewController: UITableViewDataSource {
@@ -104,6 +111,9 @@ extension RecipiesViewController: UITableViewDataSource {
             let item = items[indexPath.row]
             cell.categoryName.text = item.name
             cell.items = recipes[item] ?? []
+            cell.navigateToDetails = {[unowned self] (recipe) in
+                self.viewModel?.showRecipe(recipe: recipe)
+            }
             return cell
         }
     }
