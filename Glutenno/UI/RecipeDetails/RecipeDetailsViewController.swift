@@ -9,10 +9,8 @@ import Foundation
 import UIKit
 import RxSwift
 
-protocol RecipeDetailsView {
-    func showRecipe()
-}
-class RecipeDetailsViewController: BaseViewController, RecipeDetailsView {
+
+class RecipeDetailsViewController: BaseViewController {
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var startButton: UIButton!
@@ -29,8 +27,8 @@ class RecipeDetailsViewController: BaseViewController, RecipeDetailsView {
             return
         }
         
-        viewModel = RecipeDetailsViewModel(apiService: apiService, recipeDetailsView: self, coordinator: RecipeDetailsCoordinator(viewController: self))
-        tableView.delegate = self
+        viewModel = RecipeDetailsViewModel(apiService: apiService, coordinator: RecipeDetailsCoordinator(viewController: self))
+        
         tableView.dataSource = self
         tableView.separatorStyle = .none
         
@@ -43,13 +41,6 @@ class RecipeDetailsViewController: BaseViewController, RecipeDetailsView {
             self.viewModel?.onStartButtonTapped(steps: recipe.steps)
             }
     }
-    
-    func showRecipe() {
-        
-    }
-}
-
-extension RecipeDetailsViewController: UITableViewDelegate {
     
 }
 

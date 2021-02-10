@@ -23,14 +23,12 @@ class PagerViewController: BaseViewController, PagerViewDelegate, SwipeProtocol 
     private var pageWidth: CGFloat = 0.0
     
     var steps = [Step]()
-    var viewModel: PagerViewModelDelegate?
     var successViewController: SuccessViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.addSubview(scrollView)
-        viewModel = PagerViewModel(apiService: apiService, pagerViewDelegate: self)
         
         setup()
         setupConstraints()
@@ -64,9 +62,7 @@ class PagerViewController: BaseViewController, PagerViewDelegate, SwipeProtocol 
         
         var offset = scrollView.contentOffset.x
         offset += pageWidth
-        if offset == pageWidth * CGFloat(steps.count) - pageWidth {
-            successViewController?.onScreenFocused()
-        }
+       
         UIView.animate(withDuration: 0.2, delay: 0, options: UIView.AnimationOptions.curveEaseOut, animations: { [unowned self] in
             self.scrollView.contentOffset = CGPoint(x: offset, y: 0)
         }, completion: nil)
@@ -115,7 +111,10 @@ class PagerViewController: BaseViewController, PagerViewDelegate, SwipeProtocol 
 
 extension PagerViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        
+        let offset = scrollView.contentOffset.x
+        if offset == pageWidth * CGFloat(steps.count) - pageWidth {
+            successViewController?.onScreenFocused()
+        }
     }
 }
 

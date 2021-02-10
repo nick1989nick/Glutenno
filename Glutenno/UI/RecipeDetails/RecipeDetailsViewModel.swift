@@ -16,12 +16,10 @@ protocol RecipeDetailsViewModelDelegate: ViewModelDelegate {
 class RecipeDetailsViewModel: ViewModel, RecipeDetailsViewModelDelegate {
     
     let apiService: ApiService
-    let recipeDetailsView: RecipeDetailsView
     let coordinator: RecipeDetailsCoordinator
     
-    init(apiService: ApiService, recipeDetailsView: RecipeDetailsView, coordinator: RecipeDetailsCoordinator) {
+    init(apiService: ApiService,coordinator: RecipeDetailsCoordinator) {
         self.apiService = apiService
-        self.recipeDetailsView = recipeDetailsView
         self.coordinator = coordinator
     }
   

@@ -24,7 +24,6 @@
 		170E5AA025D26F9200D604CE /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E5A9F25D26F9200D604CE /* PagerViewController.swift */; };
 		170E5AA525D26FB300D604CE /* RecipeStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E5AA425D26FB300D604CE /* RecipeStepsViewController.swift */; };
 		170E5AB025D2766E00D604CE /* SwipeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E5AAF25D2766E00D604CE /* SwipeProtocol.swift */; };
-		170E5AB525D2891800D604CE /* PagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E5AB425D2891800D604CE /* PagerViewModel.swift */; };
 		170E5ABB25D2B39A00D604CE /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E5ABA25D2B39A00D604CE /* SuccessViewController.swift */; };
 		170E5AE325D3CD2900D604CE /* 15647-yellow-check.json in Resources */ = {isa = PBXBuildFile; fileRef = 170E5AE225D3CD2900D604CE /* 15647-yellow-check.json */; };
 		171B8F5D25CD2E420074B671 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171B8F5C25CD2E420074B671 /* Category.swift */; };
@@ -96,7 +95,6 @@
 		170E5A9F25D26F9200D604CE /* PagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
 		170E5AA425D26FB300D604CE /* RecipeStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStepsViewController.swift; sourceTree = "<group>"; };
 		170E5AAF25D2766E00D604CE /* SwipeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeProtocol.swift; sourceTree = "<group>"; };
-		170E5AB425D2891800D604CE /* PagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewModel.swift; sourceTree = "<group>"; };
 		170E5ABA25D2B39A00D604CE /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		170E5AE225D3CD2900D604CE /* 15647-yellow-check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "15647-yellow-check.json"; sourceTree = "<group>"; };
 		171B8F5C25CD2E420074B671 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -287,7 +285,6 @@
 			children = (
 				170E5A9F25D26F9200D604CE /* PagerViewController.swift */,
 				170E5AAF25D2766E00D604CE /* SwipeProtocol.swift */,
-				170E5AB425D2891800D604CE /* PagerViewModel.swift */,
 			);
 			path = Pager;
 			sourceTree = "<group>";
@@ -695,7 +692,6 @@
 				1755FD0725D13BB5005447FD /* RecipeDetailsViewController.swift in Sources */,
 				1755FD0125D12124005447FD /* SearchViewController.swift in Sources */,
 				17038D5B25C9370C00A2F114 /* AppDelegate.swift in Sources */,
-				170E5AB525D2891800D604CE /* PagerViewModel.swift in Sources */,
 				17783A3225CAE4BC00B89525 /* RecipesViewController.swift in Sources */,
 				171B8F7025CD32E60074B671 /* Router.swift in Sources */,
 				170E5A9625D15CC800D604CE /* UIView+fromNIB.swift in Sources */,
